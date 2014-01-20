@@ -1,0 +1,25 @@
+{
+	"name": "csi/esqueleto-app",
+    "description": "Estrutura básica para início de uma aplicação em php",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Daniel Rodrigo Fleck",
+            "email": "fleck@pm.pr.gov.br"
+        }
+    ],
+    "require": {
+
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+
+}
