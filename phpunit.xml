@@ -1,0 +1,28 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/3.7/phpunit.xsd"
+
+    backupGlobals="false"
+    backupStaticAttributes="false"
+    bootstrap="public/bootstrap.php"
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    forceCoversAnnotation="false"
+    processIsolation="false"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    strict="false"
+    verbose="false">
+
+    <!-- Serão considerados arquivos de teste os arquivos encontrados nas sites abaixo -->
+    <testsuites>
+        <testsuite name="Suite de Testes do Projeto">
+            <!-- Arquivos que compõe a suite de teste -->
+            <directory suffix="Test.php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
